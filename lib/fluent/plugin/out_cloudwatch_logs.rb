@@ -232,6 +232,7 @@ module Fluent
             }
             sleep(sleep_sec)
             retry_count += 1
+            retry
           end
         end
       end
